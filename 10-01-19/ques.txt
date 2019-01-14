@@ -1,0 +1,19 @@
+
+
+
+
+
+1. What is Javascript?(interpreted client-side scripting)
+2. Features of Javascript.(weakly/untyped)
+3. What can you do with javascript that you can't do with Html?
+4. difference between compiler and interpreter.
+5. How do you write program with js in Html?
+6. What is a reserved word in js?
+7. What is literal?
+8. Data types in js - Numbers, Scientific Notations, Hexadecimal, Strings, Boolean, Objects, Arrays, Undefined, Null, Empty
+9. Concatenations
+10. What is a variable? How to declare and name a variable? Global and Local
+11. Primitive and Compound Data.
+12. Operators and Expressions
+13. Regular Expressions
+14. 

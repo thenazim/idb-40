@@ -1,0 +1,37 @@
+<html>
+
+
+
+<body>
+
+	<form name='factorial'>
+	
+		Put Number: <input type="text" name='fact_num'/>
+		<br>
+		<input type="button" value='get factorial'
+		onclick="getFactorial()"/>
+		<br>
+		Factorial Value: <input readonly type="text" name='fact_value'/>
+	</form>
+	
+	<script>
+		function getFactorial()
+		{
+			var numFact = document.factorial.fact_num.value;
+			
+			var factValue = 1;
+	
+	
+			for(var i = numFact; i >= 1; i--){
+				 factValue = factValue*i;
+				//factValue *= i;
+			}
+			document.factorial.fact_value.value = factValue
+			return;
+		}
+	
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<script>
+	
+	function getMaxVal()
+	{
+		var a = 1, b = 2, c = 3;
+		var maxVal;
+		if(a>b && a>c){
+			maxVal = a;
+		}else if(b>a && b>c){
+			maxVal = b;
+		}else{
+			maxVal = c;
+		}
+		
+		return maxVal 	;
+	}
+	function getMaxValWithArg(a,b,c)
+	{
+		var maxVal;
+		if(a>b && a>c){
+			maxVal = a;
+		}else if(b>a && b>c){
+			maxVal = b;
+		}else{
+			maxVal = c;
+		}
+		
+		return maxVal 	;
+	}
+var mv = getMaxValWithArg(1,2,3);
+document.write('Maximum Value = '+ mv);
+document.write('Maximum Value = '+ mv);
+
+</script>

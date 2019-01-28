@@ -1,0 +1,87 @@
+<html>
+<body>
+   <form name='test_form'>
+    
+    	<input type = "number" name = "num_input"/> <br><br>
+        <input type = "number" name = "divider_input"/><br><br>
+        <input type = 'button' value = 'find mod' onclick = 'findModulus()'/>
+        <br><br>
+        <input readonly type = "number" name = "mod_input"/>
+        
+    
+    </form>
+    <script> 
+    
+    	function findModulus(){
+        alert(document.test_form.mod_input.value)
+        	var num = document.test_form.num_input.value
+          	//var intNum = parseInt(num)
+            
+            var divider = document.test_form.divider_input.value
+            //var dividerNum = parseInt(divider)
+            
+            var numMod = parseInt(num) %  parseInt(divider)
+            //var numMod = intNum % dividerNum
+            document.test_form.mod_input.value  = numMod
+           
+        }
+    
+    </script>
+
+</body>
+</html>
+
+
+
+//first format.
+
+<form name="learning_object1"> 
+	<input type='text' name='fname' />
+    <input type='text' name='lname' />
+
+
+</form>
+<form name="learning_object2"> 
+
+<input type='text' name='gname' />
+    <input type='text' name='sname' />
+
+</form>
+
+<script>
+
+window ={
+
+	document: {
+    	learning_object1: {// formName1
+        	fname: {// elementName1
+            
+            	value: ''''''
+            },
+            lname: {// elementName2
+            
+            	value: ''''''
+            },
+        
+        },
+        learning_object2: { // formName 2
+          gname: {// elementName 
+
+                  value: ''''''
+          },
+          
+          sname: {// elementName 2
+
+                  value: ''''''
+          }
+        
+        }
+   
+    }
+
+}
+
+window.document.formName
+</script>
+
+

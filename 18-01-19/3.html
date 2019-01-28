@@ -1,0 +1,28 @@
+<script>
+
+	var students = ['masud', 'saiful', 'fahim', 'sadek', 'rahamat', 'jaber', 'mizan', 'jewel', 'rana', 'iftekher', 'apu', 'sakib']
+   
+    /*var numStudents = students.length
+    var indexInit = numStudents - 10
+     
+    for(var i = indexInit; i < numStudents; i++  ){
+    	
+       
+        document.write('<br>'+students[i] + '<br>')
+    }*/
+    
+   /* var revStuIndex = students.reverse();
+    
+    for(var i = 0; i < 5; i++  ){
+    	
+       
+      document.write('<br>'+revStuIndex[i] + '<br>')
+    }*/
+    
+    var sliceStudents = students.slice(-5)
+    
+    for(var i = 0; i < sliceStudents.length; i++  ){
+    	
+       document.write('<br>'+sliceStudents[i] + '<br>')
+    }
+</script>

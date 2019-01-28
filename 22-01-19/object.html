@@ -1,0 +1,28 @@
+<script>
+
+	function Person(first_name, last_name, mob_no){
+    		
+            this.firstName = first_name;
+            this.lastName = last_name;
+            this.mobNo = mob_no
+            this.fullName = function(){
+            
+            	return this.firstName + ' '+ this.lastName;
+            }
+    	
+    }
+    
+    var person1 = new Person('Masud', 'Hossain', 017);
+    person1.status = 'single'
+    var person2 = new Person('Jobaer', 'Hossain', 015);
+    person2.age = 25
+   document.write(person1.firstName)
+   document.write('<br>'+person2.firstName)
+   document.write('<br>'+person1.fullName())
+   document.write('<br>'+person2.fullName())
+   document.write('<br>'+person1.status)
+   document.write('<br>'+person2.age)
+   document.write('<br>'+ Person.prototype)
+
+
+</script>

@@ -1,0 +1,19 @@
+<script>
+document.write(findMaxValue(5, 6))
+function findMaxValue(a, b)
+{
+	var maxNum;
+	if(a && b && a>b){
+	
+		maxNum = a
+	}
+	
+	if(a && b && b>a){
+		maxNum = b
+	}
+	if(maxNum){return maxNum}
+	return 'not defined';
+
+}
+
+</script>

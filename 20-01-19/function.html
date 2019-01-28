@@ -1,0 +1,30 @@
+<script>
+   
+   
+   var vrbl = 'global variable'
+   
+   /*if(true){
+   		var vrbl = 'if variable'
+   		//document.write(vrbl)
+   }*/
+   function createFunc(a, b){
+   
+ 		var vrbl = 'local variable'
+   		var comment;
+        /*if(a>5 || b>a){
+        	comment = 'ok' 
+        }else{
+        	comment = 'not ok'
+        }*/
+        
+        var comment = a>5 || b>a?'ok': 'not ok'
+        //document.write('<br>'+comment)
+      // document.write('<br>'+vrbl)
+      return comment;
+   }
+   //document.write('<br>' + vrbl + '<br>')
+   var a = 598989, b = 6898565;
+   var funcValue = createFunc(a, b)
+   document.write(funcValue)
+  
+</script>
